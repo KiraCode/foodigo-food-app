@@ -1,0 +1,25 @@
+/* ✅ Import Google Fonts before Tailwind utilities */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:wght@200..1000&family=Outfit:wght@100..900&family=Poppins:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌎 Global Styles */
+* {
+  @apply m-0 p-0 box-border;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  @apply min-h-screen bg-white text-gray-800;
+}
+
+a {
+  @apply no-underline text-inherit;
+}
+
+.app {
+  @apply w-4/5 mx-auto;
+
+}
